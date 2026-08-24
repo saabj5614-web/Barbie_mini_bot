@@ -1,0 +1,24 @@
+{
+  "name": "MR REHAN MINI",
+  "description": "PAID WhatsApp MD bot by 〆͎𐏓꯭ 𝐊𝐈𝐋𝐋𝐄𝐑 𝐊𝐈𝐍𝐆〆͎ / MR REHAN",
+  "repository": "",
+  "keywords": [
+    "whatsapp",
+    "baileys",
+    "bot",
+    "MR REHAN",
+    "paid"
+  ],
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+    }
+  ],
+  "env": {
+    "SESSION_ID": {
+      "description": "Session string for the bot",
+      "required": false,
+      "value": ""
+    }
+  }
+}
